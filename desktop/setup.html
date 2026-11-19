@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'">
+<title>ChartMate · Getting ready</title><link rel="stylesheet" href="setup.css"></head>
+<body><main><span class="badge">CHARTMATE / LOCAL AI</span><h1>Your words.<br>Your workspace.</h1>
+<p>Record observations, review the transcript, and build your labour care table. Processing stays on this PC.</p>
+<section><h2 id="heading">Preparing ChartMate</h2><p id="message" role="status" aria-live="polite">Checking local models…</p>
+<progress id="progress" max="100"></progress><p id="detail" class="detail"></p>
+<button id="start" hidden>Download Models & Start</button><button id="retry" hidden>Retry</button>
+<button id="folder" class="secondary">Open Model Folder</button></section>
+<p class="foot">First-time setup downloads approximately 4 GB from Hugging Face and the Ollama model registry. After setup, transcription and extraction work offline. Allow at least 7 GB free for setup. 16 GB RAM is recommended; 8 GB PCs may be slow.</p>
+<p class="foot">Research prototype. Review transcripts and extracted values. Export your work before closing.</p></main><script src="setup.js"></script></body></html>
